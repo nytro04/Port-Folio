@@ -414,11 +414,10 @@ header {
   padding: 5px 0;
 }
 
-/* Contact Me */
-.contact-links {
+/* .contact-links {
   list-style: none;
   float: left;
-}
+} */
 
 /* .contact-links ul li {
   margin: 5px 10px;
@@ -427,12 +426,41 @@ header {
   font-size: 70%;
 } */
 
-.section-contact ul li {
+/* .section-contact ul li {
   margin: 10px 20px;
   padding: 0;
   font-weight: bold;
   font-size: 80%;
   letter-spacing: 1px;
+} */
+
+/* Contact Me */
+
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="checkbox"] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {
+  outline: none;
 }
 
 /* -------------------------------- */
