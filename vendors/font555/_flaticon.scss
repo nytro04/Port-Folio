@@ -1,0 +1,70 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 17/03/2019 16:50
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-code:before { content: "\f100"; }
+.flaticon-checked-symbol:before { content: "\f101"; }
+.flaticon-github-logo:before { content: "\f102"; }
+.flaticon-twitter-logo-silhouette:before { content: "\f103"; }
+.flaticon-responsive-design-symbol:before { content: "\f104"; }
+.flaticon-api:before { content: "\f105"; }
+.flaticon-api-page:before { content: "\f106"; }
+.flaticon-computer:before { content: "\f107"; }
+.flaticon-design:before { content: "\f108"; }
+.flaticon-responsive:before { content: "\f109"; }
+.flaticon-web:before { content: "\f10a"; }
+.flaticon-envelope:before { content: "\f10b"; }
+.flaticon-smartphone-call:before { content: "\f10c"; }
+.flaticon-facebook-placeholder-for-locate-places-on-maps:before { content: "\f10d"; }
+.flaticon-postbox:before { content: "\f10e"; }
+    
+    $font-Flaticon-code: "\f100";
+    $font-Flaticon-checked-symbol: "\f101";
+    $font-Flaticon-github-logo: "\f102";
+    $font-Flaticon-twitter-logo-silhouette: "\f103";
+    $font-Flaticon-responsive-design-symbol: "\f104";
+    $font-Flaticon-api: "\f105";
+    $font-Flaticon-api-page: "\f106";
+    $font-Flaticon-computer: "\f107";
+    $font-Flaticon-design: "\f108";
+    $font-Flaticon-responsive: "\f109";
+    $font-Flaticon-web: "\f10a";
+    $font-Flaticon-envelope: "\f10b";
+    $font-Flaticon-smartphone-call: "\f10c";
+    $font-Flaticon-facebook-placeholder-for-locate-places-on-maps: "\f10d";
+    $font-Flaticon-postbox: "\f10e";

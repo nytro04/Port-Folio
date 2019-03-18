@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/resources/css/style.css" />
+    <link rel="stylesheet" href="/resources/css/queries.css" />
+    <link rel="stylesheet" href="/vendors/css/normalize.css" />
+    <link rel="stylesheet" href="/vendors/css/038 Grid.css" />
+    <link rel="stylesheet" href="/vendors/font/flaticon.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,700"
+      rel="stylesheet"
+    />
+    <title>fbFolio</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav>
+        <div class="row">
+          <!-- <img src="resources/img" alt="logo" class="logo" /> -->
+          <ul class="main-nav js-main-nav">
+            <li><a href="#home" onclick="smoothScroll(event)">Home</a></li>
+            <li><a href="#about" onclick="smoothScroll(event)">About</a></li>
+            <li><a href="#project" onclick="smoothScroll(event)">Projects</a></li>
+            <li><a href="#contact" onclick="smoothScroll(event)">Contact</a></li>
+          </ul>
+          <a class="mobile-nav-icon js-nav-icon"><i class="flaticon-menu-three-horizontal-lines-symbol"></i></li></a>
+        </div>
+      </nav>
+
+      <div class="hero-text-box">
+        <h1>
+          <span class="hello"> Hello, I'm </span>
+          <span class="name">Francis Badasu</span><br />
+        </h1>
+        <p class="title">A Full Stack Developer</p>
+        <div class="all-btn">
+          <a class="btn btn-full js-scroll-to-about" href="#">About Me</a>
+          <a class="btn btn-ghost js-scroll-to-project" href="#">Projects</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-about js-section-about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+      </div>
+
+      <div class="row">
+        <div class="col span-1-of-3  box">
+          <i class="flaticon-responsive-design-symbol big-icon"></i>
+          <h3>Web Development</h3>
+          <p>
+            A passion for developing functionally Responsive Web Application
+          </p>
+        </div>
+
+        <div class="col span-1-of-3 box">
+          <i class="flaticon-computer big-icon"></i>
+          <h3>Front-End Development</h3>
+          <p>
+            I love to create simple, clean and responsive UI's that translates
+            into great UX
+          </p>
+        </div>
+
+        <div class="col span-1-of-3 box">
+          <i class="flaticon-api-page  big-icon"></i>
+          <h3>API Development</h3>
+          <p>
+            API Development with NodeJS and Golang
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col span-1-of-2">
+          <img class="pic" src="resources/img/image.jpeg" alt="My picture" />
+          <h4>Who Am I?</h4>
+          <p class="long-copy">
+            I'm a Francis Badasu, A Full Stack Web Developer based in Ghana. I
+            have growing experience and passion for building awesome Web Apps
+            and API's
+          </p>
+        </div>
+        <div class="col span-1-of-2">
+          <h2>Skills</h2>
+          <div class="center">
+            <div class="skillbar">
+              <div>
+              <p>HTML/CSS</p>
+              <P>85%</P>
+              <div class="skill-percentage">
+                <div class="skill-level" style="width:85%"></div>
+              </div>
+              </div>
+              <div>
+                <p>JavaScript</p>
+                <P>85%</P>
+                <div class="skill-percentage">
+                  <div class="skill-level" style="width:85%"></div>
+                </div>
+              </div>
+              <div>
+                <p>React/Redux</p>
+                <P>85%</P>
+                <div class="skill-percentage">
+                  <div class="skill-level" style="width:85%"></div>
+                </div>
+              </div>
+                <div>
+                  <p>Node</p>
+                  <P>85%</P>
+                    <div class="skill-percentage">
+                      <div class="skill-level" style="width:85%"></div>
+                    </div>
+                  </div>
+                  <div>
+                      <p>Golang</p>
+                      <P>85%</P>
+                      <div class="skill-percentage">
+                        <div class="skill-level" style="width:85%"></div>
+                      </div>
+                    </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-projects js-section-project" id="project">
+      <div class="row">
+        <h2>Projects</h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <div class="project-box">
+            <div>
+              <h3 class="hori-line">BDClientApp</h3>
+              <img
+                src="resources/img/hero_client_panel.png"
+                alt="client_panel"
+              />
+              <p class="project-title">
+                A Web Application built to maanage Client
+              </p>
+            </div>
+            <div>
+              <ul>
+                <li><i class="flaticon-checked-symbol icon-small"></i>React</li>
+                <li><i class="flaticon-checked-symbol icon-small"></i>Redux</li>
+                <li>
+                  <i class="flaticon-checked-symbol icon-small"></i
+                  >Firebase/Firestore
+                </li>
+                <li>
+                  <i class="flaticon-checked-symbol icon-small"></i>Bootstrap
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="btn btn-full" target="_blank">GitHub</a>
+              <a href="#" class="btn btn-ghost" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col span-1-of-3">
+          <div class="project-box">
+            <div>
+              <h3 class="hori-line">Shopping Cart</h3>
+              <img
+                src="resources/img/hero_client_panel.png"
+                alt="client_panel"
+              />
+              <p class="project-price-meal">An E-commerce Web Application</p>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <i class="flaticon-checked-symbol icon-small"></i>NodeJS
+                </li>
+                <li>
+                  <i class="flaticon-checked-symbol icon-small"></i>Express
+                </li>
+                <li>
+                  <i class="flaticon-checked-symbol icon-small"></i>MongoDB
+                </li>
+                <li>
+                  <i class="flaticon-checked-symbol icon-small"></i>React/Redux
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="btn btn-full" target="_blank">GitHub</a>
+              <a href="#" class="btn btn-ghost" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col span-1-of-3">
+          <div class="project-box">
+            <div>
+              <h3 class="hori-line">fb Folio</h3>
+              <img
+                src="resources/img/hero_client_panel.png"
+                alt="client_panel"
+              />
+              <p class="project-price-meal">A Personal Port Folio Website</p>
+            </div>
+            <div>
+              <ul>
+                <li><i class="flaticon-checked-symbol icon-small"></i>HTML</li>
+                <li><i class="flaticon-checked-symbol icon-small"></i>CSS</li>
+                <li>
+                  <i class="flaticon-checked-symbol icon-small"></i>JavaScript
+                </li>
+                <li>
+                  <i class="flaticon-checked-symbol icon-small"></i>JQuery
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="btn btn-full" target="_blank">GitHub</a>
+              <a href="#" class="btn btn-ghost" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-contact" id="contact">
+      <div class="row">
+        <h2>Contact Me</h2>
+
+        <ul class="contact-links">
+            <li>
+                <i class="flaticon-envelope icon-small"></i>nytro04@gmail.com
+              </li>
+              <li>
+                  <i class="flaticon-smartphone-call icon-small"></i>+233549970041
+                </li>
+                <li>
+                    <i class="flaticon-facebook-placeholder-for-locate-places-on-maps icon-small"></i>Ghana, Accra
+                  </li>
+                  <li>
+                      <i class="flaticon-postbox icon-small"></i>P.o. Box Kt 532, Kotobabi-Accra
+                    </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row">
+        <ul class="social-links">
+
+          <li>
+            <a href="https://github.com/nytro04" target="_blank"><i class="flaticon-github-logo small-icon icon-social-github"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/nytro04" target="_blank"><i class="flaticon-twitter-logo-silhouette small-icon icon-social-twitter"></i></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <p>Copy &copy; 2019 by Francis Badasu. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+  </body>
+</html>
