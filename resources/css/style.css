@@ -267,7 +267,7 @@ header {
     url(img/header-background1-min.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 120vh;
   background-attachment: fixed;
 }
 
@@ -280,14 +280,39 @@ header {
 }
 
 /* for when logo is ready */
-.logo {
+/* .logo {
   height: 100px;
   width: auto;
   float: left;
   margin-top: 20px;
+} */
+
+/* new nav with flexbox */
+.flex-nav li {
+  list-style-type: none;
+  padding: 20px 10px;
 }
 
-.main-nav {
+.flex-nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 8px 0px;
+  font-weight: bold;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.flex-nav a:hover {
+  border-bottom: 2px solid #1abc9c;
+}
+
+/* nav a:hover {
+  border-bottom: 2px solid #1abc9c;
+} */
+
+/* .main-nav {
   float: right;
   list-style: none;
   margin-top: 30px;
@@ -340,11 +365,12 @@ header {
 
 .sticky .main-nav {
   margin-top: 18px;
+  margin-bottom: 15px;
 }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:link:visited {
-  padding: 16px 0;
+  padding: 8px 0;
   color: #555;
 }
 

@@ -12,21 +12,6 @@ $(document).ready(function() {
     }
   );
 
-  // scrolling
-  $(".js-scroll-to-about").click(function() {
-    $("html, body").animate(
-      { scrollTop: $(".js-section-about").offset().top },
-      1000
-    );
-  });
-
-  $(".js-scroll-to-project").click(function() {
-    $("html, body").animate(
-      { scrollTop: $(".js-section-project").offset().top },
-      1000
-    );
-  });
-
   /** Mobile Nav */
   $(".js-nav-icon").click(function() {
     var nav = $(".js-main-nav");

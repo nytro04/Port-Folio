@@ -18,9 +18,10 @@
   </head>
   <body>
     <header id="home">
-      <nav>
+      <nav class="flex-nav">
         <div class="row">
           <!-- <img src="resources/img" alt="logo" class="logo" /> -->
+          <!-- <ul class="main-nav js-main-nav"> -->
           <ul class="main-nav js-main-nav">
             <li><a href="#home" onclick="smoothScroll(event)">Home</a></li>
             <li><a href="#about" onclick="smoothScroll(event)">About</a></li>
@@ -31,15 +32,15 @@
         </div>
       </nav>
 
-      <div class="hero-text-box">
+      <div class="hero-text-box flex-header">
         <h1>
           <span class="hello"> Hello, I'm </span>
           <span class="name">Francis Badasu</span><br />
         </h1>
         <p class="title">A Full Stack Developer</p>
         <div class="all-btn">
-          <a class="btn btn-full js-scroll-to-about" href="#">About Me</a>
-          <a class="btn btn-ghost js-scroll-to-project" href="#">Projects</a>
+          <a class="btn btn-full" href="#about" onclick="smoothScroll(event)">About Me</a>
+          <a class="btn btn-ghost" href="#project" onclick="smoothScroll(event)">Projects</a>
         </div>
       </div>
     </header>
