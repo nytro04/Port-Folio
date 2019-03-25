@@ -4,47 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="/resources/css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1100px)"
+      href="/resources/css/widescreen.css"
+    />
     <link rel="stylesheet" href="/resources/css/style.css" />
-    <link rel="stylesheet" href="/resources/css/queries.css" />
+    <!-- <link rel="stylesheet" href="/resources/css/queries.css" />
     <link rel="stylesheet" href="/vendors/css/normalize.css" />
     <link rel="stylesheet" href="/vendors/css/038 Grid.css" />
-    <link rel="stylesheet" href="/vendors/font/flaticon.css" />
+    <link rel="stylesheet" href="/vendors/font/flaticon.css" /> -->
 
     <link
       href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,700"
       rel="stylesheet"
     />
-    <title>fbFolio</title>
+    <title>Francis Badasu | Full Stack Developer</title>
   </head>
   <body>
     <header id="home">
-      <nav>
-        <div class="row">
-          <!-- <img src="resources/img" alt="logo" class="logo" /> -->
-          <ul class="main-nav js-main-nav">
-            <li><a href="#home" onclick="smoothScroll(event)">Home</a></li>
-            <li><a href="#about" onclick="smoothScroll(event)">About</a></li>
-            <li><a href="#project" onclick="smoothScroll(event)">Projects</a></li>
-            <li><a href="#contact" onclick="smoothScroll(event)">Contact</a></li>
-          </ul>
-          <a class="mobile-nav-icon js-nav-icon"><i class="flaticon-menu-three-horizontal-lines-symbol"></i></li></a>
-        </div>
+      <nav id="navbar">
+        <!-- logo goes here -->
+        <h2>Logo</h2>
+        <ul>
+          <li><a href="#home" onclick="smoothScroll(event)">Home</a></li>
+          <li><a href="#about" onclick="smoothScroll(event)">About</a></li>
+          <li><a href="#project" onclick="smoothScroll(event)">Projects</a></li>
+          <li><a href="#contact" onclick="smoothScroll(event)">Contact</a></li>
+        </ul>
       </nav>
 
-      <div class="hero-text-box">
-        <h1>
+      <div class="container">
+        <div class="content">
           <span class="hello"> Hello, I'm </span>
-          <span class="name">Francis Badasu</span><br />
-        </h1>
-        <p class="title">A Full Stack Developer</p>
-        <div class="all-btn">
-          <a class="btn btn-full js-scroll-to-about" href="#">About Me</a>
-          <a class="btn btn-ghost js-scroll-to-project" href="#">Projects</a>
+          <h1>Francis Badasu</h1>
+          <p class="title">A Full Stack Developer</p>
+          <div class="all-btn">
+            <a class="btn btn-full js-scroll-to-about" href="#">About Me</a>
+            <a class="btn btn-ghost js-scroll-to-project" href="#">Projects</a>
+          </div>
         </div>
       </div>
     </header>
 
-    <section class="section-about js-section-about" id="about">
+    <!-- <section class="section-about js-section-about" id="about">
       <div class="row">
         <h2>About Me</h2>
       </div>
@@ -288,15 +296,13 @@
       <div class="row">
         <p>Copy &copy; 2019 by Francis Badasu. All rights reserved.</p>
       </div>
-    </footer>
+    </footer> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/script.js"></script>
   </body>
 </html>
-
-
 
 <!-- <ul class="contact-links">
   <li>
